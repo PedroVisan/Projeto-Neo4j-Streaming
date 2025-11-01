@@ -7,9 +7,9 @@ atores e diretores, com relacionamentos como WATCHED (com propriedade rating), A
 
 1. Abra o **Neo4j Desktop** ou **Neo4j Aura**.
 2. Crie um **novo banco de dados**.
-3. Copie os arquivos CSV da pasta `data/` para o diretório de importação do Neo4j.
+3. Copie os arquivos CSV da pasta zip '/bloom-export-streaming-DIO.zip' para o diretório de importação do Neo4j.
 4. Importe os nós
    
 OU
 
-Abra bloom-visualization-streaming.png para visualizar
+Abra bloom-visualization-streaming.png para visualizar os nós e relacionamentos em grafos.
