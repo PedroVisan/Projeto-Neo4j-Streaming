@@ -8,11 +8,8 @@ atores e diretores, com relacionamentos como WATCHED (com propriedade rating), A
 1. Abra o **Neo4j Desktop** ou **Neo4j Aura**.
 2. Crie um **novo banco de dados**.
 3. Copie os arquivos CSV da pasta `data/` para o diretório de importação do Neo4j.
-4. Importe os nós:
-```cypher
-LOAD CSV WITH HEADERS FROM 'file:///node-export.csv' AS row
-CREATE (n:Label {nome: row.nome});
-
+4. Importe os nós
+   
 OU
 
-Abra image/bloom-visualization-streaming.png para visualizar
+Abra bloom-visualization-streaming.png para visualizar
